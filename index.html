@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Studio | Dịch vụ Studio & Truyền thông Chuyên nghiệp</title>
+    <meta name="description" content="Prime Studio cung cấp dịch vụ cho thuê studio cao cấp, sản xuất video chuyên nghiệp và livestream sự kiện doanh nghiệp. Nâng tầm thương hiệu của bạn với cơ sở vật chất hiện đại của chúng tôi.">
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- 1. Header -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="#">
+                    <img src="assets/images/logo.png" alt="Prime Studio">
+                </a>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#services" class="nav-link">Dịch Vụ</a></li>
+                    <li><a href="#work" class="nav-link">Dự Án</a></li>
+                    <li><a href="#studio" class="nav-link">Không Gian Studio</a></li>
+                </ul>
+            </nav>
+            <div class="header-cta">
+                <a href="#contact" class="btn btn-primary">Đặt Lịch Ngay</a>
+            </div>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Bật tắt menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- 2. Hero Section -->
+    <section class="hero">
+        <div class="hero-bg" style="background-image: url('assets/images/hero.png');"></div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="fade-up">Nơi Tầm Nhìn Biến Thành Hiện Thực</h1>
+            <p class="hero-subtitle fade-up delay-1">Không gian studio cao cấp, sản xuất video chuyên nghiệp và dịch vụ livestream sự kiện hoàn hảo dành cho các thương hiệu yêu cầu sự xuất sắc.</p>
+            <div class="hero-actions fade-up delay-2">
+                <a href="#services" class="btn btn-primary btn-large">Khám Phá Dịch Vụ</a>
+                <a href="#contact" class="btn btn-outline btn-large">Liên Hệ Tư Vấn</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Trust Bar -->
+    <section class="trust-bar">
+        <div class="container">
+            <p class="trust-title">Đối tác tin cậy của các thương hiệu hàng đầu</p>
+            <div class="logo-grid">
+                <!-- Placeholders for client logos -->
+                <div class="client-logo">TECHCORP</div>
+                <div class="client-logo">LUMINA</div>
+                <div class="client-logo">NEXUS</div>
+                <div class="client-logo">OMNI MEDIA</div>
+                <div class="client-logo">ELEVATE</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Core Services -->
+    <section class="section services" id="services">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-badge">Chuyên Môn Của Chúng Tôi</span>
+                <h2>Dịch vụ chuyên nghiệp cho mọi quy mô.</h2>
+                <p>Chúng tôi cung cấp giải pháp toàn diện, từ cho thuê không gian studio đến các đội ngũ sản xuất trọn gói.</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="assets/images/studio.png" alt="Cho Thuê Studio">
+                    </div>
+                    <div class="service-content">
+                        <h3>Cho Thuê Studio</h3>
+                        <p>Không gian được trang bị đầy đủ, xử lý cách âm tiêu chuẩn với hệ thống ánh sáng sẵn sàng, phông vô cực và khu vực khách hàng tiện nghi.</p>
+                        <a href="#studio" class="service-link">Xem Không Gian &rarr;</a>
+                    </div>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="assets/images/production.png" alt="Sản Xuất Video">
+                    </div>
+                    <div class="service-content">
+                        <h3>Sản Xuất Video</h3>
+                        <p>Đội ngũ đạo diễn, quay phim và hậu cần chuyên nghiệp sẵn sàng đưa câu chuyện thương hiệu của bạn vào cuộc sống.</p>
+                        <a href="#work" class="service-link">Xem Dự Án &rarr;</a>
+                    </div>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="assets/images/livestream.png" alt="Livestream Sự Kiện">
+                    </div>
+                    <div class="service-content">
+                        <h3>Livestream Sự Kiện</h3>
+                        <p>Livestream chất lượng truyền hình với hệ thống nhiều camera, đường truyền internet dự phòng, đồ họa tùy chỉnh và điều khiển chuyên nghiệp.</p>
+                        <a href="#contact" class="service-link">Nhận Báo Giá &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Featured Case Studies -->
+    <section class="section work dark-section" id="work">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Dự Án Tiêu Biểu</span>
+                <h2>Kết quả thực tế cho các thương hiệu tham vọng.</h2>
+            </div>
+            
+            <div class="case-studies">
+                <!-- Case Study 1 -->
+                <div class="case-study-row">
+                    <div class="case-study-image placeholder-dark">
+                        <img src="assets/images/production.png" alt="Hội Nghị Toàn Cầu TechCorp">
+                    </div>
+                    <div class="case-study-info">
+                        <span class="case-category">Livestream / Sản Xuất</span>
+                        <h3>Hội Nghị Toàn Cầu TechCorp</h3>
+                        <p>Sự kiện trực tuyến kéo dài 3 ngày phát sóng cho hơn 50.000 nhân viên trên toàn cầu. Chúng tôi đã vận hành hệ thống 5 camera, đồ họa trực tiếp và kết nối đường truyền với cam kết không gián đoạn.</p>
+                        <ul class="case-stats">
+                            <li><strong>50k+</strong> Người Xem</li>
+                            <li><strong>3 Ngày</strong> Trực Tiếp</li>
+                            <li><strong>0</strong> Gián Đoạn</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Case Study 2 -->
+                <div class="case-study-row reverse">
+                    <div class="case-study-image placeholder-dark">
+                        <img src="assets/images/studio.png" alt="Chiến Dịch Mùa Thu Lumina">
+                    </div>
+                    <div class="case-study-info">
+                        <span class="case-category">Studio / Sản Xuất</span>
+                        <h3>Chiến Dịch Mùa Thu Lumina</h3>
+                        <p>Sử dụng studio phông vô cực chính của chúng tôi cho buổi quay TVC kéo dài 2 ngày. Hệ thống giàn đèn và thiết bị có sẵn giúp ê-kíp chuyển đổi nhanh chóng giữa các cảnh quay phức tạp.</p>
+                        <ul class="case-stats">
+                            <li><strong>2 Ngày</strong> Quay</li>
+                            <li><strong>15+</strong> Cảnh Quay</li>
+                            <li><strong>4K</strong> Bàn Giao</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Why Choose Prime -->
+    <section class="section features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="features-text">
+                    <span class="section-badge">Lợi Thế Từ Prime</span>
+                    <h2>Xây dựng bởi sự chuyên nghiệp, dành cho sự chuyên nghiệp.</h2>
+                    <p>Chúng tôi hiểu rằng trong lĩnh vực sản xuất, thời gian là vàng bạc và sự tin cậy là tất cả. Toàn bộ cơ sở vật chất và cấu trúc dịch vụ của chúng tôi được thiết kế để tối ưu hóa quy trình làm việc của bạn.</p>
+                </div>
+                <div class="features-list">
+                    <div class="feature-item">
+                        <div class="feature-icon">⚡</div>
+                        <div>
+                            <h4>Giải Pháp Trọn Gói</h4>
+                            <p>Chỉ cần đến và bấm máy. Không gian của chúng tôi luôn được thiết lập sẵn sàng, giảm thiểu tối đa thời gian chuẩn bị.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🛡️</div>
+                        <div>
+                            <h4>Độ Tin Cậy Doanh Nghiệp</h4>
+                            <p>Đường truyền cáp quang dự phòng, hệ thống điện lưới an toàn và quy trình ghi hình đảm bảo không rủi ro.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🤝</div>
+                        <div>
+                            <h4>Hỗ Trợ Chuyên Gia</h4>
+                            <p>Đội ngũ kỹ thuật viên và quản lý studio trực tiếp hỗ trợ, đảm bảo quá trình sản xuất diễn ra suôn sẻ.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Workflow -->
+    <section class="section workflow bg-light">
+        <div class="container text-center">
+            <div class="section-header text-center">
+                <span class="section-badge">Quy Trình Làm Việc</span>
+                <h2>Quy trình liền mạch từ khi nhận brief đến bàn giao.</h2>
+            </div>
+            
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">01</div>
+                    <h4>Khám Phá & Lên Phương Án</h4>
+                    <p>Chúng tôi thống nhất về tầm nhìn sáng tạo, yêu cầu kỹ thuật và công tác hậu cần.</p>
+                </div>
+                <div class="step-connector"></div>
+                <div class="step">
+                    <div class="step-number">02</div>
+                    <h4>Tiền Kỳ</h4>
+                    <p>Chốt đội ngũ, chuẩn bị thiết bị và hoàn thiện kịch bản chi tiết hoặc danh sách cảnh quay.</p>
+                </div>
+                <div class="step-connector"></div>
+                <div class="step">
+                    <div class="step-number">03</div>
+                    <h4>Sản Xuất</h4>
+                    <p>Thực hiện hoàn hảo tại studio của chúng tôi hoặc tại hiện trường dưới sự giám sát chuyên nghiệp.</p>
+                </div>
+                <div class="step-connector"></div>
+                <div class="step">
+                    <div class="step-number">04</div>
+                    <h4>Bàn Giao</h4>
+                    <p>Chỉnh sửa hậu kỳ chỉn chu và bàn giao an toàn mọi tài nguyên thành phẩm.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Studio Space & Equipment -->
+    <section class="section studio" id="studio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Cơ Sở Vật Chất</span>
+                <h2>Không gian đẳng cấp quốc tế thiết kế để sáng tạo.</h2>
+            </div>
+            
+            <div class="studio-content">
+                <div class="studio-main-image">
+                    <img src="assets/images/studio.png" alt="Prime Studio A">
+                    <div class="image-caption">Studio A - 300m2 Phông Vô Cực (Cyclorama)</div>
+                </div>
+                
+                <div class="equipment-list-container">
+                    <h3>Bao Gồm Trong Gói Thuê Studio A:</h3>
+                    <ul class="equipment-list">
+                        <li>Phông Vô Cực Trắng 3 Mặt (12m x 12m)</li>
+                        <li>Giàn Đèn Điều Khiển Bằng Động Cơ (Chiều Cao 5.5m)</li>
+                        <li>Internet Cáp Quang Gigabit Đối Xứng</li>
+                        <li>Khu Vực Khách Hàng & Phòng Chờ Riêng Biệt</li>
+                        <li>Khu Vực Trang Điểm, Làm Tóc & Thay Đồ</li>
+                        <li>Lối Đưa Xe Trực Tiếp Dành Cho Đạo Cụ Lớn</li>
+                        <li>Nguồn Điện 3 Pha 400A</li>
+                        <li>Quản Lý Studio Trực Tiếp Hỗ Trợ</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline mt-2">Tải Thông Số Kỹ Thuật</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. Testimonials -->
+    <section class="section testimonials bg-light">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Khách hàng nói gì về chúng tôi</h2>
+            </div>
+            
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="quote">"Prime Studio là lựa chọn hàng đầu cho các sự kiện livestream doanh nghiệp của chúng tôi. Đội ngũ kỹ thuật của họ rất xuất sắc, và hệ thống cực kỳ ổn định giúp chúng tôi xua tan mọi áp lực khi phát sóng trực tiếp."</p>
+                    <div class="author">
+                        <strong>Sarah Jenkins</strong>
+                        <span>Phó Giám Đốc Truyền Thông, TechCorp</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="quote">"Phông vô cực được bảo trì rất tốt, hệ thống đèn được thiết lập sẵn giúp chúng tôi tiết kiệm hàng giờ chuẩn bị. Thực sự là một cơ sở cao cấp."</p>
+                    <div class="author">
+                        <strong>Marcus Chen</strong>
+                        <span>Đạo Diễn Hình Ảnh</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="quote">"Từ khi đặt lịch đến khi đóng máy, đội ngũ Prime luôn chuyên nghiệp và nhiệt tình. Phòng chờ tại đây thuộc hàng tốt nhất thành phố."</p>
+                    <div class="author">
+                        <strong>Elena Rodriguez</strong>
+                        <span>Nhà Sản Xuất, Omni Media</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. Final CTA & Footer -->
+    <section class="section cta-section" id="contact">
+        <div class="container text-center">
+            <h2>Sẵn sàng nâng tầm dự án sản xuất tiếp theo của bạn?</h2>
+            <p>Liên hệ với đội ngũ của chúng tôi để kiểm tra lịch trống, yêu cầu báo giá chi tiết, hoặc đặt lịch tham quan studio.</p>
+            <div class="cta-buttons">
+                <a href="mailto:hello@primestudio.vn" class="btn btn-primary btn-large">Liên Hệ Tư Vấn</a>
+                <a href="tel:+84901234567" class="btn btn-outline btn-large text-white">090 123 4567</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <div class="logo">
+                    <a href="#">
+                        <img src="assets/images/logo.png" alt="Prime Studio">
+                    </a>
+                </div>
+                <p>Cơ sở vật chất truyền thông và dịch vụ sản xuất cao cấp dành cho các thương hiệu yêu cầu sự xuất sắc.</p>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Dịch Vụ</h4>
+                <ul>
+                    <li><a href="#">Cho Thuê Studio</a></li>
+                    <li><a href="#">Sản Xuất Video</a></li>
+                    <li><a href="#">Livestream Sự Kiện</a></li>
+                    <li><a href="#">Cho Thuê Thiết Bị</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Công Ty</h4>
+                <ul>
+                    <li><a href="#">Về Chúng Tôi</a></li>
+                    <li><a href="#">Dự Án</a></li>
+                    <li><a href="#">Tuyển Dụng</a></li>
+                    <li><a href="#">Liên Hệ</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-contact">
+                <h4>Địa Điểm</h4>
+                <p>Tòa nhà Creative, Quận 1<br>TP. Hồ Chí Minh, Việt Nam</p>
+                <p class="mt-1"><a href="mailto:booking@primestudio.vn">booking@primestudio.vn</a></p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 Prime Studio. Đã đăng ký bản quyền.</p>
+                <div class="legal-links">
+                    <a href="#">Chính Sách Bảo Mật</a>
+                    <a href="#">Điều Khoản Dịch Vụ</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
