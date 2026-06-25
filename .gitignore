@@ -1,0 +1,3 @@
+# Git configuration
+.gitignore
+git_push.sh

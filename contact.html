@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ tư vấn | Prime Studio</title>
+    <meta name="description" content="Liên hệ Prime Studio để nhận tư vấn về studio, livestream hoặc sản xuất video.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- 1. Header -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/logo.png" alt="Prime Studio">
+                </a>
+            </div>
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="index.html#services" class="nav-link">Dịch vụ</a></li>
+                    <li><a href="projects.html" class="nav-link">Dự án</a></li>
+                    <li><a href="contact.html" class="nav-link" style="color: var(--c-primary); font-weight: 600;">Liên hệ</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <a href="contact.html" class="btn btn-primary">Liên hệ tư vấn</a>
+            </div>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="section">
+        <div class="container contact-split">
+            <!-- Left Info Col -->
+            <div class="contact-info-col">
+                <h1 class="contact-headline">Liên hệ tư vấn cho dự án của bạn</h1>
+                <p class="contact-desc">Prime Studio hỗ trợ doanh nghiệp trong nhu cầu studio, livestream và sản xuất nội dung. Gửi thông tin cho Prime để được tư vấn phương án phù hợp.</p>
+                
+                <div class="contact-details-list">
+                    <div class="contact-detail-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-detail-text">
+                            <h4>Địa chỉ</h4>
+                            <p>Prime Studio, Quận 4, TP.HCM</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-detail-text">
+                            <h4>Điện thoại</h4>
+                            <p>0838 767 979</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-detail-text">
+                            <h4>Email</h4>
+                            <p>Prime.studio.386@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <p class="contact-note">* Prime sẽ phản hồi sớm trong giờ làm việc.</p>
+            </div>
+            
+            <!-- Right Form Col -->
+            <div class="contact-form-col">
+                <form action="#" method="POST" id="contactForm">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Họ và tên</label>
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Nhập tên của bạn" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone" class="form-label">Số điện thoại</label>
+                        <input type="tel" id="phone" name="phone" class="form-control" placeholder="090 123 4567" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="email@company.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Nhu cầu / mô tả dự án</label>
+                        <textarea id="message" name="message" class="form-control" placeholder="Hãy mô tả chi tiết nhu cầu của doanh nghiệp..." required></textarea>
+                    </div>
+                    <button type="submit" id="submitBtn" class="btn btn-primary btn-large btn-submit">Gửi yêu cầu tư vấn</button>
+                </form>
+                
+                <div id="formSuccessMessage" style="display: none; text-align: center; padding: 2.5rem 1rem;">
+                    <div style="font-size: 3.5rem; margin-bottom: 1rem;">✅</div>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 0.75rem; color: var(--c-text);">Gửi yêu cầu thành công</h3>
+                    <p style="color: var(--c-text-muted); line-height: 1.6; margin: 0;">Cảm ơn bạn đã quan tâm đến Prime Studio. Thông tin của bạn đã được hệ thống ghi nhận. Đội ngũ tư vấn sẽ liên hệ lại với bạn trong thời gian sớm nhất.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-info">
+                <div class="footer-logo">
+                    <img src="assets/images/logo.png" alt="Prime Studio">
+                </div>
+                <p class="footer-desc mt-sm">Không gian và dịch vụ hỗ trợ doanh nghiệp sản xuất video, livestream và nội dung thương hiệu.</p>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Điều hướng</h4>
+                <ul>
+                    <li><a href="index.html#services">Dịch vụ</a></li>
+                    <li><a href="projects.html">Dự án</a></li>
+                    <li><a href="contact.html">Liên hệ</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-contact">
+                <h4>Thông tin liên hệ</h4>
+                <p>386 Hoàng Diệu, Phường Khánh Hội, TP.HCM (quận 4 cũ)</p>
+                <p class="mt-sm"><strong>Điện thoại:</strong> 0838 767 979</p>
+                <p><strong>Email:</strong> Prime.studio.386@gmail.com</p>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Prime Studio. Tất cả quyền được bảo lưu.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
